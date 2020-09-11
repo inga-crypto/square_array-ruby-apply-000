@@ -12,7 +12,7 @@ return new_numbers
  end
  
 =begin def square_array(numbers)
-new_numbers = []
+new_nums = []
 numbers.each {|num| new_nums << num ** 2}
 return new_nums
  end
