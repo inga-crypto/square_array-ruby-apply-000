@@ -7,8 +7,8 @@ end
 
 def square_array(array)
 new_numbers = []
-array.each {|num| new_nums << num ** 2}
-return new_nums
+array.each {|num| new_numbers << num ** 2}
+return new_numbers
  end
  
 =begin def square_array(numbers)
