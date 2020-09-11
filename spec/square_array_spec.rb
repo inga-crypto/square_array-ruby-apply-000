@@ -1,17 +1,18 @@
-def square_array(numbers)
+=begin def square_array(numbers)
 new_numbers = []
 #numbers.each {|num| new_nums << num ** 2}
 #return new_nums
 it numbers.each do |num|
  new_numbers << num ** 2
  
-    numbers = [1,2,3]
-expect(numbers).to_not receive(:collect)
-    expect(numbers).to_not receive(:map)
-    expect(numbers).to_not receive(:inject)
-    square_array(numbers)
+    #numbers = [1,2,3]
+#expect(numbers).to_not receive(:collect)
+    #expect(numbers).to_not receive(:map)
+    #expect(numbers).to_not receive(:inject)
+    #square_array(numbers)
  end
 end
+=end
 
   def square_array(numbers) 
     numbers.each do |i|
@@ -21,6 +22,7 @@ end
     square_array(numbers)
    end
   end
+  
 def square_array(numbers)
 array.collect do|num|
 puts num ** 2
